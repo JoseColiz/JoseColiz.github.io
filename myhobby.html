@@ -4,91 +4,86 @@
 <title>Chapter 6: Exercise 10</title>
 <meta charset="utf-8">
 <style>
-header, main, nav, footer, section, article, figure, figcaption,
-aside { display: block; }
-* { box-sizing: border-box; }
+
 body {font-family:Verdana, Arial, sans-serif;
-      background-color: #00005D;
+      background-color: lemonchiffon;
 } 
-main {  display: block; /* for Internet Explorer version 10 and below */
-        margin-left: 155px;
+p{ font-size: small;}
+main {  margin-left: 155px;
         padding: 20px;
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #000000;
+        color:lightgray;
+        margin-bottom: 0;
 } 
-header { background-color: #869dc7;
+header { background-color: lemonchiffon;
         color: #00005D; 
         font-size: 150%; 
         padding: 10px 10px 10px 155px;
-		background-image: url(lighthouselogo.jpg); 
-		background-repeat: no-repeat;
-}
+        }
+a:link { color: rgb(0, 95, 95);}
+a:visited{ color: red;}
+a:hover{ cursor: grab;}
+
 h1 { margin-bottom: 0; }
-h2 { color: #869dc7; 
+h2 { color: white; 
      font-family: arial, sans-serif;
-	 font-size: 200%;
+	 font-size: x-large;
 }
- 
+h3{color: white;}
+
 #floatright { margin: 10px;
               float: right;
 }
-article header { background-color: #FFFFFF;
-                 background-image: none;
+article header { background-color: black;
 				 font-size: 90%;
 				 padding-left: 0;
 				 height: auto;
 }
-aside { float: right;
-        width: 200px;
-		background-color: #CCCCCC;
-		padding: 20px;
-		margin-right: 40px;
-		font-size: 80%;
-		box-shadow: 5px 5px 5px;
-		position: relative;
-		top: -40px;
-}
-footer { font-size:70%;
+
+footer { font-size: large;
          text-align: center;
 		 clear: right;
-         padding: 20px;
-		 background-color: #869dc7; 
+         padding: 50px;
+         background-color: lemonchiffon;
+         margin-top: 0;
+}
+
+img { width: 100px;
+    height: 100px;
+    float: inline-end;
+    border-radius: 50%;
 }
 </style> 
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-</script>
-<![endif]-->
 
 </head>
 <body>
-<div id="wrapper">
   <header>
     <h1>My Favorite Hobby</h1>
   </header>
 
   <main>
     <section>
-      <h2>Bistro Blog</h2>
-      <aside>Watch for the March Madness Wrap next month!</aside>
+      <img src="Telstar.jpg" alt="Telstar Soccerball"><h2>Soccer</h2> 
       <article>
-      <header><h3>Valentine Wrap</h3></header>
-        <time datetime="2016-02-01">February 1, 2016</time>
-        <p>The February special sandwich is the Valentine Wrap &mdash;
-heart healthy organic chicken with roasted red peppers on a
-whole wheat wrap.</p>
+      <header><h3>Why I love the sport</h3></header>
+        <p>I grew up watching and playing the sport so it has always been in my life. As I grew older I started not only watching it casually, 
+        but also analyzing games and wanting to learn more about tactics and how the game is played. The variety of formations that teams play
+        and the thinking that goes in before each match is exciting to me. Of course another thing has to be the skills and control that the best
+        players have. 
+        </p>
+        <a href="https://www.youtube.com/watch?v=fqqWN-mDp5s" target="_blank"><i>Here</i></a> is an example of what makes this game so fun
       </article>
       <article>
-        <header><h3>New Coffee of the Day Promotion</h3></header>
-        <time datetime="2016-01-12">January 12, 2016</time>
-        <p>Enjoy the best coffee on the coast in the comfort of your
-home. We will feature a different flavor of our gourmet,
-locally roasted coffee each day with free bistro tastings
-and a discount on one-pound bags.</p>
+        <header><h3>Favorite Team!</h3></header>
+               <p>My favorite team is Manchester United, the Red Devils. I began supporting Man U years ago. Their history, the legends that
+                   have played for the club, the colors, Old Trafford, all led me to this team. My favorite player of all time, Cristiano 
+                   Ronaldo, started to grow into the legend he is in Manchester. The treble winning 1998-99 team, although I did not get to 
+                   watch them play, is one of my favorite teams ever along with the Champions League winning team in 2007-08. </p>
+               <a href="https://www.manutd.com/" target="_blank"> Manchester United Website </a>
        </article>
      </section>
    </main>
-   <footer> <a href="mailto:z1777024@students.niu.edu">E-Mail Me</a>
+   <footer> We can talk more about the beautiful game? <br> <a href="mailto:z1777024@students.niu.edu">E-Mail Me!</a>
    </footer>
 </div>
 </body>
