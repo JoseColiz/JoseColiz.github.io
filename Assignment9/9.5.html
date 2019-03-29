@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        header{font-size: xx-large; font-weight: bolder; margin-bottom: 10px0}
+        fieldset{width: 300px;
+                 margin-top: 10px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            Music Survey
+        </header>
+        <form>
+            Name:<br>
+            <input type = "text" name = "name"> <br>
+             Email:<br>
+            <input type = "email" name = "email"> <br>
+            <fieldset>
+                <legend> What type of music do you listen to?</legend>
+                <input type="checkbox" name="type" value="Rap"> Rap <br>
+                <input type="checkbox" name="type" value="Pop"> Pop <br>
+                <input type="checkbox" name="type" value="Rock"> Rock <br>
+                <input type="checkbox" name="type" value="Country"> Country <br>
+                <input type="checkbox" name="type" value="Latin"> Latin <br>
+                <input type="checkbox" name="type" value="Other"> Other <br>
+            </fieldset>
+            <fieldset>
+                    <legend> How often do you listen to music?</legend>
+                    <input type="radio" name="how often" value="Less than 1 hour"> Less than 1 hour <br>
+                    <input type="radio" name="how often" value="1 - 2 hours"> 1 - 2 hours <br>
+                    <input type="radio" name="how often" value="2 - 3 hours"> 2- 3 hours <br>
+                    <input type="radio" name="how often" value="3 - 4 hours"> 3 - 4 hours <br>
+                    <input type="radio" name="how often" value="4 - 5 hours"> 4 - 5 hours <br>
+                    <input type="radio" name="how often" value="More then 5 hours"> More than 5 hours <br>
+                </fieldset>
+            <fieldset>
+                <legend>What streaming services do you use?</legend>
+                <select size="3" name="services" id="service" multiple>
+                        <option value="Spotify">Spotify</option>
+                        <option value="Apple Music">Apple Music</option>
+                        <option value="Pandora">Pandora</option>
+                        <option value="Tidal">Tidal</option>
+                        <option value="Soundcloud">Soundcloud</option>
+                       </select>
+            </fieldset>
+            <br>What role does music play in your life?<br>
+            <textarea name="service" cols="60" rows="3"></textarea><br>
+            <input type = "Submit" value = "Submit">
+            <input type = "reset" value = "Reset">
+        </form>
+    </body>
+    <footer><br>
+        Jose Coliz<br>
+        coliz.jose@gmail.com   
+    </footer>
+
+</html>
