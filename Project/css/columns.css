@@ -1,6 +1,8 @@
 .column {
-    float: left;
-    width: 33.33%;
+    float: right;
+    width: 25%;
+    border: 5px lightpink;
+    border-style: solid;
   }
   
   /* Clear floats after the columns */
