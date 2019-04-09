@@ -11,7 +11,8 @@ nav{
     top: 10%;
     bottom: -10%;
     left: 0;
-    float: left;
+	float: left;
+	transition: 3ms;
 }
 nav a{
 	font-size: 18px;

@@ -1,8 +1,6 @@
 .column {
     float: right;
     width: 25%;
-    border: 2px lightpink;
-    border-style: solid;
     margin: 3px;
   }
   
