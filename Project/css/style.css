@@ -1,0 +1,44 @@
+html{
+    background-color: lightgray;
+}
+header{
+    text-align: center;
+}
+nav{
+	width: 250px;
+	height: auto;
+	position: absolute;
+    top: 10%;
+    bottom: -10%;
+    left: 0;
+	float: left;
+}
+nav a{
+	font-size: 18px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 70px;
+    margin: 5px ;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 500ms;
+}
+a:active, nav a:hover{
+	background-color: white;
+	color: black;
+	width: 80%;
+	cursor: grab;
+}
+.a, .b, .c, .d, .e, .f, .g {
+	width: 70%;
+}
+body{
+    text-align: center;
+}
+.About{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
