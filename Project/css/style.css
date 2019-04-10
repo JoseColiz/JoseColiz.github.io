@@ -12,7 +12,6 @@ nav{
     bottom: -10%;
     left: 0;
 	float: left;
-	transition: 3ms;
 }
 nav a{
 	font-size: 18px;
@@ -25,11 +24,13 @@ nav a{
 	color: white;
 	line-height: 90px;
 	text-align: center;
+	transition: 500ms;
 }
 a:active, nav a:hover{
 	background-color: white;
 	color: black;
-    width: 80%;
+	width: 80%;
+	cursor: grab;
 }
 .a, .b, .c, .d, .e, .f, .g {
 	width: 70%;
