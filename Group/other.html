@@ -23,6 +23,20 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<style>		
+.column1 {
+  float: right;
+  width: 75%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 	</head>
 	<body>
 
@@ -48,60 +62,32 @@
 				<!-- Page -->
 					<div id="page" class="container">
 						<div class="row">
-		
-							<!-- Sidebar -->
-							<div id="sidebar" class="4u">
-								<section>
-									<header class="major">
-										<h2>Etiam malesuada</h2>
-									</header>
-									<div class="row half">
-										<section class="6u">
-											<ul class="default">
-												<li><a href="#">Donec facilisis tempor</a></li>
-												<li><a href="#">Nulla convallis cursus</a></li>
-												<li><a href="#">Integer congue euis</a></li>
-												<li><a href="#">Venenatis vulputate</a></li>
-												<li><a href="#">Morbi ligula volutpat</a></li>
-											</ul>
-										</section>
-										<section class="6u">
-											<ul class="default small">
-												<li><a href="#">Donec facilisis tempor</a></li>
-												<li><a href="#">Nulla convallis cursus</a></li>
-												<li><a href="#">Integer congue euis</a></li>
-												<li><a href="#">Venenatis vulputate</a></li>
-												<li><a href="#">Morbi ligula volutpat</a></li>
-											</ul>
-										</section>
-									</div>
-								</section>
-								<section>
-									<header class="major">
-										<h2>Mauris vulputate</h2>
-									</header>
-									<ul class="default">
-										<li><a href="#">Pellentesque lectus gravida blandit</a></li>
-										<li><a href="#">Lorem ipsum consectetuer adipiscing</a></li>
-										<li><a href="#">Phasellus nibh pellentesque congue</a></li>
-										<li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-										<li><a href="#">Maecenas vitae orci feugiat eleifend</a></li>
-										<li><a href="#">Phasellus nibh pellentesque congue</a></li>
-										<li><a href="#">Cras vitae metus aliquam pharetra</a></li>
-									</ul>
-								</section>
-							</div>
-							
+
 							<!-- Content -->
 							<div id="content" class="8u skel-cell-important">
 								<section>
 									<header class="major">
-										<h2>Left Sidebar</h2>
-										<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+										<h2>Our Featured Shelters</h2>
+										<span class="byline">Our Featured Shelters are updated monthly!</span>
 									</header>
-									<img src="./images/tails.png">
-									<img src="./images/barn.jpg" width="400px" height="500px">
-									<img src="">
+									<div class="row1">
+									<div class="column1">
+										<img src="./images/tails.png" width="400px">
+										<figcaption>Tails Humane Society</figcaption>
+									</div>
+									<div class="column1">
+										<img src="./images/safe.jpg" width="400px">
+										<figcaption>Safe Haven Dog Rescue</figcaption>
+									</div>
+									<figure>
+										<img src="./images/barn.jpg" width="400px" height="500px">
+										<figcaption>The Barn on Baseline</figcaption>
+									</figure>
+									<figure>
+										<img src="./images/safe.jpg" width="500px">
+										<figcaption>Safe Haven Dog Rescue</figcaption>
+									</figure>
+								</div>
 								</section>
 							</div>
 		
@@ -152,12 +138,7 @@
 
 	<!-- Copyright -->
 		<div id="copyright">
-			<div class="container"> <span class="copyright">Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)</span>
-				<ul class="icons">
-					<li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-				</ul>
+			<div class="container"> <span class="copyright">Design: <a href="http://templated.co" target="_blank">TEMPLATED</a></span>
 			</div>
 		</div>
 
